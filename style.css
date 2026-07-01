@@ -1,0 +1,107 @@
+/* ------------------------------
+   STYLE GLOBAL
+--------------------------------*/
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background: #003366;
+    color: white;
+    padding: 25px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* ------------------------------
+   MENU
+--------------------------------*/
+
+nav {
+    margin-top: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    background: #0066cc;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.menu a:hover {
+    background: #004c99;
+}
+
+/* ------------------------------
+   SECTIONS
+--------------------------------*/
+
+.section {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+/* ------------------------------
+   TABLEAUX
+--------------------------------*/
+
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 900px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: #003366;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background: #f0f4f8;
+}
+
+/* ------------------------------
+   FOOTER
+--------------------------------*/
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: #003366;
+    color: white;
+}
