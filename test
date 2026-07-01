@@ -1,6 +1,9 @@
-index.html
-classement.html
-resultats.html
-pronos.html
-style.css
-script.js
+pronos-euro-2026/
+│
+├── index.html
+├── classement.html
+├── resultats.html
+├── pronos.html
+│
+├── style.css
+└── script.js
